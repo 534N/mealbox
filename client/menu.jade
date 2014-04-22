@@ -1,0 +1,22 @@
+template(name="menu")
+	div.menu
+		div.container
+			div.menu-title  
+				i.fa.fa-cutlery &nbsp; &nbsp; Menu available in your area
+			div.menu-container
+				each menusInMyArea
+					div.col-md-3
+						div.panel.panel-default
+							div.panel-heading
+								span.panel-title= name
+								span.badge.pull-right 8
+							div.panel-body 
+								img(src="images/#{name}.jpg")
+								div.control
+									span.stars
+										i.fa.fa-heart 
+									span.reviews 
+										i.fa.fa-comment-o
+								
+									button.btn.btn-order.pull-right
+										i.fa.fa-dollar= price

@@ -1,0 +1,184 @@
+
+@import '_bootstrap_override'
+
+
+body
+	font-family 'Open Sans', sans-serif
+	padding-bottom 40px
+	background-color #efefef
+	i 
+		margin-right 5px
+.navbar-default
+	background #fff
+	border-bottom 0
+	box-shadow 0 3px 5px rgba(0,0,0,0.1)
+	opacity 0.9
+	a
+		color #63D1AB !important
+	.profile
+		.not-geolocate
+			margin-right 10px
+			color #ddd
+		.geolocated
+			margin-right 10px
+			color #00aacc
+			text-shadow 1px 1px 1px rgba(0,0,0,0.3)
+		.avatar
+			border 0
+			background transparent
+			padding 0
+			img
+				width 25px
+				height 25px
+				border-radius 25px
+				opacity 0.8
+				cursor pointer
+				&:hover
+					opacity 1
+		.dropdown-menu
+			border-radius 0
+			border 0
+			li 
+				a 
+					color #aaa !important
+					&:hover
+						color #666 !important
+
+#date-time
+	position absolute
+	right 0
+	top 100px
+	padding 10px
+	background rgba(0,0,0,0.6)
+	color #fff
+	margin-bottom 20px
+	.day
+		font-size 3em
+	.dow 
+		font-style italic
+
+
+.menu-container
+	// margin-top 80px 	
+	.panel
+		border-radius 0
+		border 0
+		opacity 0.8
+		-webkit-transition all 0.4s
+		-moz-transition all 0.4s
+		-o-transition all 0.4s
+		transition all 0.4s
+		.panel-heading
+			background #80d38e
+			color #fff
+			border-radius 0
+			border 0
+			.badge
+				background #93DA9F
+		.panel-body
+			opacity 0.8
+			img
+				width 100%
+				height 100%
+			.control
+				padding 10px 0 0 0
+				.stars
+					margin-right 20px
+					i 
+						margin-right 5px
+						color #F54438
+						opacity 0.6
+						cursor pointer
+						&:hover
+							opacity 1
+				.stars-o
+					margin-right 20px
+					i 
+						margin-right 5px
+						color #aaa
+						opacity 0.6
+						cursor pointer
+						&:hover
+							opacity 1	
+
+				.reviews
+					i
+						cursor pointer
+						color #aaa
+						opacity 0.6
+						&:hover
+							opacity 1
+				.btn-order
+					background #efefef
+					color #aaa
+					border-radius 0
+					letter-spacing 2px
+					font-size 1.1em
+					&:hover
+						color #666
+						background #ddd
+
+		&:hover
+			box-shadow 0 3px 7px rgba(0,0,0,.2)
+			opacity 1
+	
+.menu
+	position relative
+	width 100%
+	// padding-top 20px
+	box-shadow -1px 0 2px 3px rgba(0,0,0,0.1)
+	.menu-title 
+		margin-left auto
+		margin-right auto
+		width 300px
+		text-align center
+		font-weight 100
+		font-size 1.2em
+		padding 3px
+		background #00aacc
+		margin-top -2px
+		margin-bottom 15px
+		color #fff
+
+.order 
+	position relative
+	width 100%
+	z-index 1
+	background #fff
+	// padding-top 20px
+	box-shadow -1px 0 2px 3px rgba(0,0,0,0.1)
+	.menu-title 
+		margin-left auto
+		margin-right auto
+		width 300px
+		text-align center
+		font-weight 100
+		font-size 1.2em
+		padding 3px
+		background #00aacc
+		margin-top -2px
+		margin-bottom 15px
+		color #fff
+	.order-container
+		padding-bottom 50px
+		.summary 
+			padding 10px
+			background #f5f5f5
+		.payment
+			padding 10px
+			background #fff
+			i 
+				color #888
+		.delivery
+			padding 10px
+			background #f5f5f5
+
+.map 
+	margin-top 50px
+#map-canvas
+	width 100%
+	height 100px
+
+
+
+

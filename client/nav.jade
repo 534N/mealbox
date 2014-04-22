@@ -1,0 +1,24 @@
+template(name="nav")
+	div.navbar.navbar-default.navbar-fixed-top
+		div.container
+			div.navbar-header
+				a.navbar-brand MealBox
+			div.profile.navbar-text.navbar-right.col-xs-3
+				span.geolocated.col-xs-1
+					i(class="{{geolocated}}")
+					
+				//- &nbsp;
+				//- span.avatar.btn.btn-default.dropdown-toggle(data-toggle='dropdown')
+				//- 	img(src='images/me.jpeg')
+				//- ul.dropdown-menu(role='menu')
+				//- 	li
+				//- 		a(href='#')
+				//- 			i.fa.fa-smile-o &nbsp; Profile
+				//- 	li
+				//- 		a(href='#')
+				//- 			i.fa.fa-gear &nbsp; Settings
+				//- 	li
+				//- 		a(href='#')
+				//- 			i.fa.fa-power-off &nbsp; Logout
+				span
+					+loginButtons
